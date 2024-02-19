@@ -9,7 +9,7 @@ Package.describe({
 Package.registerBuildPlugin({
   name: 'extension-order',
   sources: ['plugin.js'],
-  use: ['modules']
+  use: ['modules@0.16.0']
 });
 
 Package.onUse(api => {
